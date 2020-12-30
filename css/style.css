@@ -1,0 +1,253 @@
+/* class ký hiệu là dâu .
+id ký hiệu là dấu # */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Arial, Helvetian, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+#banner {
+	background-image: url(../img/LOGO_DTDH.png);
+	width: 100%;
+	height: 119px;
+}
+#menu {
+	background-color: #1bc2a2;
+	width: 100%;
+	height: 40px;
+}
+#menu ul li {
+	list-style-type: none;/* bỏ dấu châm đầu dòng , k sử dụng thuộc tính mặc định */
+	float: left;/* hiển thị theo chiều trang sang trái */
+	padding-left: 10px;/* căn chỉnh khoảng cách */
+	padding-right: 10px;
+	padding-top: 10px;
+	height: 31px;/* padding-top + height=40px menu */
+	font-size: 14pt;
+}
+#menu ul li:hover {
+	background-color: #FFF0F1;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+#menu ul li a:hover {
+	color: red;
+}
+#content {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+div#content-left {
+	width: 70%;
+	height: auto;
+	/* background-color:green; */
+	float: left;
+}
+div.box {
+	width: auto;
+	height: auto;
+	border: 1px solid #FFF0F1;
+	padding: 5px;
+}
+div.box-left {
+	width: 60%;
+	height: auto;
+	float: left;/* background-color:red; */
+}
+div.box-left img {
+	width: 100%;
+}
+p.tieudetin {
+	color: #09f;
+	font-size: 16px;
+	font-weight: bold;
+}
+p.tieudetin a {
+	text-decoration: none; /*bỏ gạch chân */
+	color: #06F;
+}
+p.tieudetin a:hover {
+	color: red;
+	text-decoration: underline; /* trỏ chuột đi qua và gạch chân để nhận biết đang chọn thuộc tính nào*/
+}
+p.tomtattin {
+	text-indent: 20px; /*thụt vào đầu dòng*/
+	color: #333;
+}
+div.box-right {
+	height: auto;
+	float: left;
+	padding: 5px;
+	width: 38%;/* 	background-color:blue; */
+}
+div.box-right ul {
+	margin-left: 20px;
+	text-decoration: none;/*bỏ gạch chân */
+}
+div.box-right ul li a {
+	color: #333;
+	text-decoration: none;/*bỏ gạch chân */
+	font-size: 13px;
+}
+div.box-right ul li a:hover {
+	color: red;
+	text-decoration: underline; /* trỏ chuột đi qua và gạch chân để nhận biết đang chọn thuộc tính nào*/
+}
+div.box-tin {
+	border-bottom: 1px dotted #D7D5D5;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+div.box-tin img {
+	width: 150px;
+	height: 70px;
+	float: left;
+	margin-right: 10px;
+}
+div.box-tin p a:hover {
+	color: red;
+	text-decoration: underline; /* trỏ chuột đi qua và gạch chân để nhận biết đang chọn thuộc tính nào*/
+}
+div.box-tin p a {
+	color: #333;
+	text-decoration: none;
+	font-size: 16px;
+}
+div.box-tin a:hover {
+	color: red;
+	text-decoration: underline; /* trỏ chuột đi qua và gạch chân để nhận biết đang chọn thuộc tính nào*/
+}
+div.box-tin a {
+	text-decoration: none;
+	color: #333;
+}
+div.tieudebox {
+	background-image: url(../img/tieudebox.gif);
+	height: 20px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #CCFF99;
+	margin-bottom: 5px;
+}
+div.no-padding {
+	padding: 0px;
+}
+div.no-border {
+	border: none;
+}
+div.anhchitiet img {
+	margin-left: 14%;
+}
+p.tieude {
+	font-size: 21px;
+	margin-top: 15px;
+}
+p.thoigiandang {
+	font-size: 14px;
+	color: red;
+}
+p.tomtat {
+	font-size: 17px;
+}
+p.noidung {
+	font-size: 15px;
+}
+p.nguontin {
+	font-size: 15px;
+	float: right;
+}
+div.box-left-tin-lien-quan, div.box-right-tin-lien-quan {
+	width: 50%;
+}
+div.trang {
+	float: right;
+}
+a.box-trang {
+	display:inline-block;
+	border: 1px solid #E0E0E0;
+	float: left;
+	padding: 3px 10px;
+    margin: 0 2px;
+	text-decoration:none;
+}
+a.box-trang:hover {
+	background-color: #F90;
+}
+a.active{
+	background-color: #1bc2a2;
+}
+div#content-right {
+	width: 29%;
+	height: auto;
+	/* background-color:#f60; */
+	float: right;
+}
+#footer {
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+}
+div#footer-left {
+	width: 70%;
+	height: auto;
+	float: left;
+}
+div#footer-right {
+	width: 29%;
+	height: auto;
+	float: right;
+}
+#footer h2 {
+	color: black;
+	padding-left: 15px;
+	padding-top: 13px;
+}
+#footer ul {
+	list-style-type: none;
+	padding-left: 15px;
+}
+#footer ul li {
+	float: left;
+	margin-right: 10px;
+}
+#footer ul li a img {
+	width: 45px;
+	height: 45px;
+}
+#footer p {
+	padding-left: 15px;
+}
+/*active phan trang*/
+.box-trang.active{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

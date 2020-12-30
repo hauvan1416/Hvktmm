@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:Arial, Helvetian, sans-serif;
+	font-size:12px;
+}
+#banner{
+	width:100%;
+	height:100px;
+	background-color:#666;
+	margin-bottom:10px;
+}
+#menu{
+	width:12%;
+	height:auto;
+	background-color:#DADADA;
+	float:left;
+}
+#content{
+	width:87%;
+	height:auto;
+	float:right;
+	background-color:#E5E5E5;
+}
+#footer{
+	background-color:#333;
+	width:100%;
+	height:100px;
+	margin-top:10px;
+}
+
+div#footer-left{
+	width:50%;
+	height:auto;
+	float:left;
+}
+div#footer-right{
+	width:50%;
+	height:auto;
+	float:right;
+}
+#footer h2{
+	color: white;
+	padding-left: 15px;
+	padding-top: 13px;
+}
+#footer ul{
+	list-style-type: none;
+	padding-left:15px;
+}
+#footer ul li{
+	float: left;
+	margin-right: 10px;
+}
+#footer ul li a img{
+	width:45px;
+	height:45px;
+}
+#footer p{
+	padding-left:15px;
+	color: white;
+}
+div.xoa{
+	clear:both;
+}
+div#box-chucnang{
+	width:auto;
+	height:auto;
+	background-color:#F0F0F0;
+	padding:10px;
+	border:1px solid #F0F0F0;
+	text-align:center;
+}
+div#box-chucnang:hover{
+	border:1px solid #999;
+}
+div#menu a {
+	text-decoration:none;
+	color:black;
+}
+div#menu a:hover {
+	color:red;
+}
+div.left, div.right {
+	/* width:48%; */
+	float:left;
+	padding-left:30px;
+	padding-top:30px;
+}
+div.right {
+	width:66%;
+	margin-bottom:30px;
+}
+div.left {
+	width:28%;
+	margin-bottom:30px;
+}
+#customers {
+	border-collapse:collapse; /* thay đổi hình dạng viền */
+}
+div.right#customers {
+	width:100%;
+}
+#customers tr {
+	border:1px solid #990;
+}
